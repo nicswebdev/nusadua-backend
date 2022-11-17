@@ -91,7 +91,7 @@
       "component": "layout.gallery-image",
       "required": true
     },
-    "Surrounding": {
+    "Experience": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -138,7 +138,7 @@
       "type": "string",
       "required": true
     },
-    "Surrounding_Tab_Text": {
+    "Experience_Tab_Text": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -156,6 +156,64 @@
         }
       },
       "component": "seo.seo",
+      "required": true
+    },
+    "Villa_Ground_Tab_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Lobby_Tab_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Video_Tab_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Video": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Villa_Ground": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.gallery-image",
+      "required": true
+    },
+    "Lobby": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.gallery-image",
       "required": true
     }
   }

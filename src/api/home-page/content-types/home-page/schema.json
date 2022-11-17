@@ -36,7 +36,7 @@
       "type": "string",
       "required": true
     },
-    "Content_Section_Kayumanis_Sanur": {
+    "Content_Section_Kayumanis_Nusa_Dua": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

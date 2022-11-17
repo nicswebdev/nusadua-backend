@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     connection: {
       host: env("DATABASE_HOST", "localhost"),
       port: env.int("DATABASE_PORT", 3306),
-      database: env("DATABASE_NAME", "test_git"),
+      database: env("DATABASE_NAME", "nusadua_kayumanis"),
       user: env("DATABASE_USERNAME", "root"),
       password: env("DATABASE_PASSWORD", ""),
       ssl: env.bool("DATABASE_SSL", false),
